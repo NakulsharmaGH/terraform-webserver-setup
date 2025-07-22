@@ -1,4 +1,4 @@
-git clone https://github.com/atulkamble/terraform-webserver-setup.git
+git clone https://github.com/NakulsharmaGH/terraform-webserver-setup.git
 cd terraform-webserver-setup
 
 configure aws cli 
@@ -9,7 +9,7 @@ create acces key
 
 aws configure 
 
-add access key, secrete acces key, us-east-1, json 
+add access key, secrete acces key, eu-north-1, json 
 
 >> cli 
 
