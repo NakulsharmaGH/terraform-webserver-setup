@@ -41,7 +41,7 @@ git config --global user.email "email@gmail.com"
 
 Clone the repository containing the Terraform configurations:
 ```bash
-git clone https://github.com/atulkamble/terraform-webserver-setup
+git clone https://github.com/NakulsharmaGH/terraform-webserver-setup
 cd terraform-webserver-setup
 ```
 
@@ -54,15 +54,13 @@ New-Item variables.tf
 code .
 mkdir aws
 cd aws
-mkdir aws_keys
-cd .\aws_keys\
 ```
 
 ### 6. Create Key Pair
 
-Create an AWS key pair named `mywebserver.pem` through the AWS Management Console. Save the key pair to the `aws/aws_keys/` directory:
+Create an AWS key pair named `mywebserver.pem` through the AWS Management Console. Save the key pair to the `aws/` directory:
 ```bash
-chmod 400 aws/aws_keys/mywebserver.pem
+chmod 400 aws/mywebserver.pem
 ```
 
 ### 7. Update Terraform Configuration
